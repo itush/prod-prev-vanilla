@@ -75,7 +75,7 @@ main {
     outline: none;
     border: none;
     padding: 5% 10%;
-    border-radius: 5%;
+    border-radius: 10px;
     cursor: pointer;    
 }
 
@@ -114,5 +114,12 @@ footer{
 
     #product-name{
         font-size: 2rem;
+        margin: 10% 0;
     }
+
+    #product-price{
+        margin: 10% 0;
+    }  
+
+    
 }
