@@ -2,6 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap');
 
+
+/*CSS RESET:
+Removing any default margin, padding that might be applied by the browser.
+border-box = The width and height of an element will include its padding and border, rather than just its content box. This can be useful for creating more predictable and consistent layouts.*/
 * {
     margin: 0;
     padding: 0;
