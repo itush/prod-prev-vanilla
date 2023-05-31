@@ -35,6 +35,7 @@ main {
     font-family: 'Montserrat', sans-serif;
     padding: 5%;
     background: hsl(0, 0%, 100%);
+    border-radius: 0 0 5% 5%;
 }
 
 #product-category {
