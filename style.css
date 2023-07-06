@@ -14,12 +14,17 @@ border-box = The width and height of an element will include its padding and bor
 
 body {
     background-color: hsl(30, 38%, 92%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 main {
     width: 90vw;
     max-height: 90vh;
-    margin: 4vh auto 0 auto;
+   
 }
 
 /*background: [background-color] [background-image] [background-repeat] [background-attachment] [background-position] / [background-size];
@@ -36,6 +41,9 @@ main {
     padding: 5%;
     background: hsl(0, 0%, 100%);
     border-radius: 0 0 5% 5%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 #product-category {
@@ -93,7 +101,7 @@ main {
 footer {
     width: 96%;
     font-size: smaller;
-    margin: 5% auto 0 auto;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -104,7 +112,7 @@ footer {
         width: 60vw;
         max-height: 60vh;
         display: flex;
-        margin: 15vh auto;
+        margin: 0 auto;
     }
 
     #product-image {
